@@ -15,7 +15,6 @@ if (empty($_SESSION['username'])) {
 
 else{
     echo "<div>"." Logged in as <a href='Profile.php'>".$_SESSION['username']."</a> | ";
-    echo "<a href='Sources/Logout.php'>Logout</a>";
     echo "</div><br><br><hr><br>";
 }
  ?>
